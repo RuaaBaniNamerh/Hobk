@@ -1,6 +1,6 @@
 body {
 
-	background-image:url("b.jpg");
+	background-image:url("L.jpg");
 	background-size: 100%;
 
     }
@@ -17,7 +17,8 @@ header {
   width: 1180px;
   padding: 20px;
   text-align: left;
-  font: 24px sans-serif;
+  font: 40px ;
+  color: white;
   border-style: solid;
   border-width: 20px;
   border-color: lemonchiffon;
@@ -32,11 +33,12 @@ header {
 
 
 h1{
-color: gold
+  font-stretch: 50%
+border-color: lemonchiffon
 	font-style: italic;
 }
 h2{
-
-	color: #fff
+font-size-adjust: 35px
+border-color: lemonchiffon
 	font-style: oblique
 }
