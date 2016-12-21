@@ -10,35 +10,86 @@ header {
     width:980px;
    }
    img{
-	height: 150px;
-	width: 150px;
+	height: 300px;
+	width: 600px;
+  padding:50px;
 }
    .book {
-  width: 1180px;
+  width: 210px;
   padding: 20px;
   text-align: left;
-  font: 40px ;
-  color: white;
+  position :relative;
+  font: 90px ;
+  color: #B8860B;
   border-style: solid;
   border-width: 20px;
   border-color: lemonchiffon;
   animation:myAnimation 2s linear 1s 1 forwards;
+  
 }
 @keyframes myAnimation {
   100% {
     border-color: yellowgreen orange olive gold;
-  }	
-
-}
-
-
-h1{
-  font-stretch: 50%
-border-color: lemonchiffon
-	font-style: italic;
+  }
 }
 h2{
-font-size-adjust: 35px
-border-color: lemonchiffon
-	font-style: oblique
+font-size: 40px;
+  color:  #E6804A;
+	font-style: oblique;
+  font-variant: small-caps;
+}
+
+li{
+  font-size:28px;
+  font-style:italic;
+color :white;
+}
+input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: fantasy;
+    font-color:black;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+/*input{
+  width: 300px;
+  height: 30px;
+  font-family: fantasy;
+  font-size: 20px;
+}*/
+
+
+}
+
+.booklist {
+  width: 500px;
+  height: 200px;
+}
+
+.bookimg {
+  width: 250px;
+  height: 200px;
+    float: left;
+
+}
+
+.bookli{
+  width: 250px;
+  height: 200px;
+    float: right;
+
+
 }
